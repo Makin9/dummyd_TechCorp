@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: b2c_ec_products
+    description: B2C ECサイトの商品情報を管理するテーブル
+    columns:
+      - name: product_id
+        description: 商品の一意のID
+      - name: product_name
+        description: 商品名
+      - name: price
+        description: 商品の価格
+      - name: category
+        description: 商品のカテゴリー
+      - name: image_url
+        description: 商品画像のURL
+  - name: b2c_ec_orders
+    description: B2C ECサイトの注文情報を管理するテーブル
+    columns:
+      - name: order_id
+        description: 注文の一意のID
+      - name: user_id
+        description: 注文したユーザのID
+      - name: product_id
+        description: 注文された商品のID
+      - name: order_quantity
+        description: 注文の数量
+      - name: order_date
+        description: 注文日時
+      - name: shipping_fee
+        description: 配送料
+  - name: b2c_ec_reviews
+    description: B2C ECサイトの商品に関するユーザの口コミ情報を管理するテーブル
+    columns:
+      - name: review_id
+        description: 口コミの一意のID
+      - name: product_id
+        description: 口コミが投稿された商品のID
+      - name: user_id
+        description: 口コミを投稿したユーザのID
+      - name: review_content
+        description: 口コミの内容
+      - name: stars
+        description: 評価の星数 (1〜5)
+      - name: post_date
+        description: 口コミの投稿日時

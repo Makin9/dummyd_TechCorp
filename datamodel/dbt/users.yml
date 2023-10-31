@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: user_info
+    description: TechCorpの全サービス利用ユーザの基本情報を管理するテーブル
+    columns:
+      - name: user_id
+        description: ユーザの一意のID
+      - name: username
+        description: ユーザの名前
+      - name: email
+        description: ユーザのメールアドレス
+      - name: birth_date
+        description: ユーザの生年月日
+      - name: registration_date
+        description: ユーザの登録日
+      - name: address
+        description: ユーザの住所

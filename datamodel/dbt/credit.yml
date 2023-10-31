@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: credit_cards_info
+    description: ユーザのクレジットカード情報を管理するテーブル
+    columns:
+      - name: card_number
+        description: クレジットカード番号
+      - name: user_id
+        description: カードを持つユーザのID
+      - name: expiration_date
+        description: カードの有効期限
+      - name: card_type
+        description: カードの種類
+  - name: credit_card_transactions
+    description: クレジットカードの取引履歴を管理するテーブル
+    columns:
+      - name: transaction_id
+        description: 取引の一意のID
+      - name: card_number
+        description: 取引に使用したカードの番号
+      - name: transaction_amount
+        description: 取引額
+      - name: transaction_date
+        description: 取引日時
+      - name: store_id
+        description: 取引を行った店舗のID
+  - name: credit_card_billing
+    description: クレジットカードの月次請求情報を管理するテーブル
+    columns:
+      - name: billing_id
+        description: 請求の一意のID
+      - name: card_number
+        description: 請求に関連するカードの番号
+      - name: billing_date
+        description: 請求日

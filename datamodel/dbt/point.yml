@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: point_cards_info
+    description: ユーザのポイントカード情報と累計ポイントを管理するテーブル
+    columns:
+      - name: card_id
+        description: ポイントカードの一意のID
+      - name: user_id
+        description: ポイントカードを持つユーザのID
+      - name: total_points
+        description: 累計ポイント
+      - name: last_updated
+        description: 最終更新日時
+  - name: point_cards_history
+    description: ポイントカードのポイントの増減履歴を管理するテーブル
+    columns:
+      - name: history_id
+        description: 履歴の一意のID
+      - name: card_id
+        description: ポイント変動の対象となるカードのID
+      - name: point_change
+        description: ポイントの増減量
+      - name: change_date
+        description: ポイント変動の日時
