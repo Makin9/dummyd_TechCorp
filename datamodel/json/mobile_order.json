@@ -42,10 +42,6 @@
                 {
                     "name": "creation_date",
                     "description": "クーポンの作成日時"
-                },
-                {
-                    "name": "used_status",
-                    "description": "クーポンの利用状況"
                 }
             ]
         },

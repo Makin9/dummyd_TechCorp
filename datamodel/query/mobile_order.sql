@@ -11,8 +11,7 @@ CREATE TABLE mobile_orders_coupons (
     coupon_code VARCHAR(255) NOT NULL,
     discount_value DECIMAL(10, 2) NOT NULL,
     expiration_date DATE NOT NULL,
-    creation_date TIMESTAMP NOT NULL,
-    used_status BOOLEAN NOT NULL DEFAULT FALSE
+    creation_date TIMESTAMP NOT NULL
 );
 
 -- モバイルオーダーの注文情報テーブル
