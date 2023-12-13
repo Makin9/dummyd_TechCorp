@@ -1,5 +1,5 @@
 CREATE TABLE qr_payments (
-    payment_id SERIAL PRIMARY KEY,
+    order_id SERIAL PRIMARY KEY,
     user_id INT REFERENCES users(user_id),
     payment_amount DECIMAL(10,2) NOT NULL,
     payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

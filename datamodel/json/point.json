@@ -51,7 +51,7 @@
             },
             "order_type": {
                 "name": "注文タイプ",
-                "description": "注文のタイプ。ECでの購入か、モバイルでの購入かを判断する"
+                "description": "注文のタイプ。EC、モバイル、QR"
             }
         }
     }

@@ -12,5 +12,5 @@ CREATE TABLE point_history (
     change_type TEXT CHECK (change_type IN ('use', 'save')),
     change_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     order_id INT
-    order_type TEXT CHECK (order_type IN ('ec_order', 'mobile_order'))
+    order_type TEXT CHECK (order_type IN ('ec_order', 'mobile_order', 'qr_order'))
 );

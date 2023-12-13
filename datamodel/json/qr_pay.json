@@ -5,7 +5,7 @@
         "name": "QR決済履歴情報",
         "description": "ユーザがQRでの決済を行った際の履歴情報",
         "columns": {
-            "payment_id": {
+            "order_id": {
                 "name": "決済ID",
                 "description": "決済の一意識別子"
             },

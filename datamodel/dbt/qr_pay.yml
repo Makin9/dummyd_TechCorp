@@ -5,7 +5,7 @@ models:
   - name: qr_payment_records
     description: ユーザのQR決済の履歴を管理するテーブル
     columns:
-      - name: payment_id
+      - name: order_id
         description: 決済の一意のID
       - name: user_id
         description: 決済を行ったユーザのID
