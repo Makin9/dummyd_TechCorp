@@ -44,6 +44,14 @@
             "change_date": {
                 "name": "変動日",
                 "description": "ポイントの変動が行われた日"
+            },
+            "order_id": {
+                "name": "注文ID",
+                "description": "注文の一意の識別子"
+            },
+            "order_type": {
+                "name": "注文タイプ",
+                "description": "注文のタイプ。ECでの購入か、モバイルでの購入かを判断する"
             }
         }
     }
