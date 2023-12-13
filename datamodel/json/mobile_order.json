@@ -1,46 +1,83 @@
 {
-    "mobile_order_products": {
-        "日本語テーブル名": "モバイルオーダー商品情報",
-        "概要": "モバイルオーダーサービスで提供される商品情報",
-        "カラム": {
-            "product_id": {
-                "日本語名": "商品ID",
-                "概要": "商品の一意識別子"
-            },
-            "product_name": {
-                "日本語名": "商品名",
-                "概要": "商品の名称"
-            },
-            "price": {
-                "日本語名": "価格",
-                "概要": "商品の価格"
-            }
+    "version": 2,
+    "models": [
+        {
+            "name": "mobile_orders_info",
+            "description": "ユーザのモバイルオーダーの注文情報を管理するテーブル",
+            "columns": [
+                {
+                    "name": "order_id",
+                    "description": "注文のID"
+                },
+                {
+                    "name": "product_id",
+                    "description": "注文された商品のID"
+                },
+                {
+                    "name": "order_quantity",
+                    "description": "注文数量"
+                }
+            ]
+        },
+        {
+            "name": "mobile_orders_coupons",
+            "description": "モバイルオーダーで利用可能なクーポンの情報を管理するテーブル",
+            "columns": [
+                {
+                    "name": "coupon_id",
+                    "description": "クーポンの一意のID"
+                },
+                {
+                    "name": "coupon_code",
+                    "description": "クーポンコード"
+                },
+                {
+                    "name": "discount_value",
+                    "description": "割引額"
+                },
+                {
+                    "name": "expiration_date",
+                    "description": "クーポンの有効期限"
+                },
+                {
+                    "name": "creation_date",
+                    "description": "クーポンの作成日時"
+                },
+                {
+                    "name": "used_status",
+                    "description": "クーポンの利用状況"
+                }
+            ]
+        },
+        {
+            "name": "mobile_orders",
+            "description": "モバイルオーダーの注文情報を管理するテーブル",
+            "columns": [
+                {
+                    "name": "order_id",
+                    "description": "注文の一意のID"
+                },
+                {
+                    "name": "user_id",
+                    "description": "注文を行ったユーザのID"
+                },
+                {
+                    "name": "coupon_id",
+                    "description": "利用されたクーポンID"
+                },
+                {
+                    "name": "order_date",
+                    "description": "注文日時"
+                },
+                {
+                    "name": "pickup_store_id",
+                    "description": "ピックアップ予定の店舗ID"
+                },
+                {
+                    "name": "total_amount",
+                    "description": "注文の合計金額"
+                }
+            ]
         }
-    },
-    "mobile_order_transactions": {
-        "日本語テーブル名": "モバイルオーダー取引履歴",
-        "概要": "モバイルオーダーでの注文履歴",
-        "カラム": {
-            "transaction_id": {
-                "日本語名": "取引ID",
-                "概要": "各取引の一意の識別子"
-            },
-            "user_id": {
-                "日本語名": "ユーザID",
-                "概要": "注文者のID"
-            },
-            "product_id": {
-                "日本語名": "商品ID",
-                "概要": "注文された商品のID"
-            },
-            "order_quantity": {
-                "日本語名": "注文数量",
-                "概要": "注文された商品の数量"
-            },
-            "order_date": {
-                "日本語名": "注文日",
-                "概要": "注文が行われた日時"
-            }
-        }
-    }
+    ]
 }
