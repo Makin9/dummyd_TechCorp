@@ -1,0 +1,101 @@
+product_id,product_name,price,category,image_url
+1,Laptop,43.34,Electronics,https://example.com/images/Laptop.jpg
+2,Smartphone,173.33,Electronics,https://example.com/images/Smartphone.jpg
+3,Headphones,58.76,Electronics,https://example.com/images/Headphones.jpg
+4,Camera,87.18,Electronics,https://example.com/images/Camera.jpg
+5,Smartwatch,113.14,Electronics,https://example.com/images/Smartwatch.jpg
+6,Speaker,195.34,Electronics,https://example.com/images/Speaker.jpg
+7,Tablet,135.61,Electronics,https://example.com/images/Tablet.jpg
+8,Printer,100.27,Electronics,https://example.com/images/Printer.jpg
+9,Monitor,14.56,Electronics,https://example.com/images/Monitor.jpg
+10,Keyboard,31.41,Electronics,https://example.com/images/Keyboard.jpg
+11,Chair,65.25,Furniture,https://example.com/images/Chair.jpg
+12,Table,85.95,Furniture,https://example.com/images/Table.jpg
+13,Sofa,199.5,Furniture,https://example.com/images/Sofa.jpg
+14,Bed,80.02,Furniture,https://example.com/images/Bed.jpg
+15,Desk,199.45,Furniture,https://example.com/images/Desk.jpg
+16,Bookshelf,27.45,Furniture,https://example.com/images/Bookshelf.jpg
+17,Dresser,143.89,Furniture,https://example.com/images/Dresser.jpg
+18,Cabinet,200.0,Furniture,https://example.com/images/Cabinet.jpg
+19,Couch,68.78,Furniture,https://example.com/images/Couch.jpg
+20,Wardrobe,168.88,Furniture,https://example.com/images/Wardrobe.jpg
+21,Shirt,152.49,Clothing,https://example.com/images/Shirt.jpg
+22,Pants,87.03,Clothing,https://example.com/images/Pants.jpg
+23,Jacket,76.11,Clothing,https://example.com/images/Jacket.jpg
+24,Shoes,164.66,Clothing,https://example.com/images/Shoes.jpg
+25,Dress,70.72,Clothing,https://example.com/images/Dress.jpg
+26,Shorts,33.71,Clothing,https://example.com/images/Shorts.jpg
+27,Skirt,121.55,Clothing,https://example.com/images/Skirt.jpg
+28,Sweater,186.91,Clothing,https://example.com/images/Sweater.jpg
+29,Socks,133.03,Clothing,https://example.com/images/Socks.jpg
+30,Hat,18.44,Clothing,https://example.com/images/Hat.jpg
+31,Apple,86.23,Food,https://example.com/images/Apple.jpg
+32,Banana,33.15,Food,https://example.com/images/Banana.jpg
+33,Orange,93.44,Food,https://example.com/images/Orange.jpg
+34,Grapes,198.61,Food,https://example.com/images/Grapes.jpg
+35,Strawberry,111.86,Food,https://example.com/images/Strawberry.jpg
+36,Blueberry,157.41,Food,https://example.com/images/Blueberry.jpg
+37,Cherry,55.09,Food,https://example.com/images/Cherry.jpg
+38,Pineapple,21.55,Food,https://example.com/images/Pineapple.jpg
+39,Mango,62.01,Food,https://example.com/images/Mango.jpg
+40,Peach,150.6,Food,https://example.com/images/Peach.jpg
+41,Soccer Ball,14.94,Sports,https://example.com/images/Soccer_Ball.jpg
+42,Tennis Racket,11.64,Sports,https://example.com/images/Tennis_Racket.jpg
+43,Basketball,185.21,Sports,https://example.com/images/Basketball.jpg
+44,Baseball Bat,46.8,Sports,https://example.com/images/Baseball_Bat.jpg
+45,Volleyball,21.58,Sports,https://example.com/images/Volleyball.jpg
+46,Running Shoes,148.94,Sports,https://example.com/images/Running_Shoes.jpg
+47,Yoga Mat,112.44,Sports,https://example.com/images/Yoga_Mat.jpg
+48,Dumbbells,129.25,Sports,https://example.com/images/Dumbbells.jpg
+49,Bicycle,139.73,Sports,https://example.com/images/Bicycle.jpg
+50,Swim Goggles,67.9,Sports,https://example.com/images/Swim_Goggles.jpg
+51,Novel,159.2,Books,https://example.com/images/Novel.jpg
+52,Textbook,15.39,Books,https://example.com/images/Textbook.jpg
+53,Magazine,25.08,Books,https://example.com/images/Magazine.jpg
+54,Comic Book,75.5,Books,https://example.com/images/Comic_Book.jpg
+55,Cookbook,159.6,Books,https://example.com/images/Cookbook.jpg
+56,Biography,160.52,Books,https://example.com/images/Biography.jpg
+57,Poetry,45.24,Books,https://example.com/images/Poetry.jpg
+58,Mystery,103.27,Books,https://example.com/images/Mystery.jpg
+59,Science Fiction,54.12,Books,https://example.com/images/Science_Fiction.jpg
+60,Romance,18.05,Books,https://example.com/images/Romance.jpg
+61,Tire,151.83,Automotive,https://example.com/images/Tire.jpg
+62,Brake Pads,176.39,Automotive,https://example.com/images/Brake_Pads.jpg
+63,Oil Filter,89.63,Automotive,https://example.com/images/Oil_Filter.jpg
+64,Battery,68.2,Automotive,https://example.com/images/Battery.jpg
+65,Spark Plugs,187.14,Automotive,https://example.com/images/Spark_Plugs.jpg
+66,Windshield Wipers,126.37,Automotive,https://example.com/images/Windshield_Wipers.jpg
+67,Headlights,161.46,Automotive,https://example.com/images/Headlights.jpg
+68,Air Filter,22.96,Automotive,https://example.com/images/Air_Filter.jpg
+69,Car Charger,104.32,Automotive,https://example.com/images/Car_Charger.jpg
+70,Seat Cover,50.91,Automotive,https://example.com/images/Seat_Cover.jpg
+71,Lipstick,78.66,Beauty,https://example.com/images/Lipstick.jpg
+72,Mascara,91.98,Beauty,https://example.com/images/Mascara.jpg
+73,Foundation,189.05,Beauty,https://example.com/images/Foundation.jpg
+74,Perfume,52.21,Beauty,https://example.com/images/Perfume.jpg
+75,Nail Polish,23.06,Beauty,https://example.com/images/Nail_Polish.jpg
+76,Eyeliner,138.16,Beauty,https://example.com/images/Eyeliner.jpg
+77,Shampoo,173.61,Beauty,https://example.com/images/Shampoo.jpg
+78,Conditioner,157.5,Beauty,https://example.com/images/Conditioner.jpg
+79,Body Lotion,109.96,Beauty,https://example.com/images/Body_Lotion.jpg
+80,Face Wash,172.86,Beauty,https://example.com/images/Face_Wash.jpg
+81,Doll,11.3,Toys,https://example.com/images/Doll.jpg
+82,Action Figure,106.59,Toys,https://example.com/images/Action_Figure.jpg
+83,Lego Set,140.94,Toys,https://example.com/images/Lego_Set.jpg
+84,Puzzle,30.36,Toys,https://example.com/images/Puzzle.jpg
+85,Board Game,12.27,Toys,https://example.com/images/Board_Game.jpg
+86,Plush Toy,55.35,Toys,https://example.com/images/Plush_Toy.jpg
+87,Remote Control Car,100.18,Toys,https://example.com/images/Remote_Control_Car.jpg
+88,Building Blocks,101.42,Toys,https://example.com/images/Building_Blocks.jpg
+89,Playing Cards,111.5,Toys,https://example.com/images/Playing_Cards.jpg
+90,Video Game,151.58,Toys,https://example.com/images/Video_Game.jpg
+91,Cookware Set,171.74,Kitchen,https://example.com/images/Cookware_Set.jpg
+92,Cutlery Set,127.49,Kitchen,https://example.com/images/Cutlery_Set.jpg
+93,Blender,53.62,Kitchen,https://example.com/images/Blender.jpg
+94,Toaster,175.34,Kitchen,https://example.com/images/Toaster.jpg
+95,Coffee Maker,74.65,Kitchen,https://example.com/images/Coffee_Maker.jpg
+96,Mixing Bowls,77.43,Kitchen,https://example.com/images/Mixing_Bowls.jpg
+97,Measuring Cups,115.05,Kitchen,https://example.com/images/Measuring_Cups.jpg
+98,Baking Sheet,156.12,Kitchen,https://example.com/images/Baking_Sheet.jpg
+99,Spatula,144.81,Kitchen,https://example.com/images/Spatula.jpg
+100,Peeler,92.14,Kitchen,https://example.com/images/Peeler.jpg

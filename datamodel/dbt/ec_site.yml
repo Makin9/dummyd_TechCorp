@@ -1,8 +1,8 @@
 version: 2
 
 models:
-  - name: b2c_ec_products
-    description: B2C ECサイトの商品情報を管理するテーブル
+  - name: products
+    description: 商品情報を管理するテーブル
     columns:
       - name: product_id
         description: 商品の一意のID
@@ -14,33 +14,150 @@ models:
         description: 商品のカテゴリー
       - name: image_url
         description: 商品画像のURL
-  - name: b2c_ec_orders
-    description: B2C ECサイトの注文情報を管理するテーブル
+
+  - name: orders
+    description: 注文情報を管理するテーブル
     columns:
       - name: order_id
         description: 注文の一意のID
       - name: user_id
         description: 注文したユーザのID
-      - name: product_id
-        description: 注文された商品のID
-      - name: order_quantity
-        description: 注文の数量
       - name: order_date
         description: 注文日時
       - name: shipping_fee
         description: 配送料
-  - name: b2c_ec_reviews
-    description: B2C ECサイトの商品に関するユーザの口コミ情報を管理するテーブル
+
+  - name: order_details
+    description: 注文の詳細情報を管理するテーブル
+    columns:
+      - name: orderd_id
+        description: 注文詳細の一意のID
+      - name: order_id
+        description: 注文の一意のID
+      - name: product_id
+        description: 注文された商品のID
+      - name: quantity
+        description: 注文数量
+      - name: price
+        description: 商品の価格
+
+  - name: reviews
+    description: 商品のレビュー情報を管理するテーブル
     columns:
       - name: review_id
-        description: 口コミの一意のID
+        description: レビューの一意のID
       - name: product_id
-        description: 口コミが投稿された商品のID
+        description: レビュー対象の商品ID
       - name: user_id
-        description: 口コミを投稿したユーザのID
+        description: レビュー投稿者のユーザID
       - name: review_content
-        description: 口コミの内容
+        description: レビュー内容
       - name: stars
-        description: 評価の星数 (1〜5)
+        description: 評価星数（1〜5）
       - name: post_date
-        description: 口コミの投稿日時
+        description: レビューの投稿日時
+
+  - name: carts
+    description: カート情報を管理するテーブル
+    columns:
+      - name: cart_id
+        description: カートの一意のID
+      - name: user_id
+        description: ユーザのID
+      - name: product_id
+        description: カートに追加された商品のID
+      - name: quantity
+        description: カートに追加された商品の数量
+
+  - name: carts
+    description: カート情報を管理するテーブル
+    columns:
+      - name: cart_id
+        description: カートの一意のID
+      - name: user_id
+        description: ユーザのID
+      - name: product_id
+        description: カートに追加された商品のID
+      - name: quantity
+        description: カートに追加された商品の数量
+
+  - name: product_views
+    description: 商品閲覧情報を管理するテーブル
+    columns:
+      - name: view_id
+        description: 閲覧の一意のID
+      - name: user_id
+        description: 閲覧したユーザのID
+      - name: product_id
+        description: 閲覧された商品のID
+      - name: view_date
+        description: 閲覧日時
+
+  - name: recommendations
+    description: 商品の推薦情報を管理するテーブル
+    columns:
+      - name: recommendation_id
+        description: 推薦の一意のID
+      - name: product_id
+        description: 推薦される商品のID
+      - name: recommended_product_id
+        description: 推薦する商品のID
+
+  - name: campaigns
+    description: キャンペーン情報を管理するテーブル
+    columns:
+      - name: campaign_id
+        description: キャンペーンの一意のID
+      - name: campaign_name
+        description: キャンペーン名
+      - name: start_date
+        description: 開始日
+      - name: end_date
+        description: 終了日
+
+  - name: user_behaviors
+    description: ユーザ行動情報を管理するテーブル
+    columns:
+      - name: behavior_id
+        description: 行動の一意のID
+      - name: user_id
+        description: ユーザのID
+      - name: product_id
+        description: 関連商品のID
+      - name: behavior_type
+        description: 行動タイプ（例: 'click', 'like', 'wishlist_add', 'cart_add'）
+      - name: timestamp
+        description: 行動が発生した日時
+
+  - name: ga_sessions
+    description: Google Analyticsのセッション情報を管理するテーブル
+    columns:
+      - name: session_id
+        description: セッションの一意のID
+      - name: user_id
+        description: ユーザのID
+      - name: session_start
+        description: セッション開始日時
+      - name: session_end
+        description: セッション終了日時
+      - name: source
+        description: トラフィックソース
+      - name: medium
+        description: チャネル
+      - name: device_category
+        description: デバイスカテゴリ
+
+  - name: ga_pageviews
+    description: Google Analyticsのページビュー情報を管理するテーブル
+    columns:
+      - name: view_id
+        description: ビューの一意のID
+      - name: session_id
+        description: セッションのID
+      - name: page_path
+        description: ページパス
+      - name: timestamp
+        description: ページビューが発生した日時
+      - name: product_id
+        description: 閲覧された商品のID
+
