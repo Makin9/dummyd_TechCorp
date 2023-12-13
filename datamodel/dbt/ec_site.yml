@@ -14,6 +14,8 @@ models:
         description: 商品のカテゴリー
       - name: image_url
         description: 商品画像のURL
+      - name: store_id
+        description: お店のID
 
   - name: orders
     description: 注文情報を管理するテーブル
@@ -56,18 +58,6 @@ models:
         description: 評価星数（1〜5）
       - name: post_date
         description: レビューの投稿日時
-
-  - name: carts
-    description: カート情報を管理するテーブル
-    columns:
-      - name: cart_id
-        description: カートの一意のID
-      - name: user_id
-        description: ユーザのID
-      - name: product_id
-        description: カートに追加された商品のID
-      - name: quantity
-        description: カートに追加された商品の数量
 
   - name: carts
     description: カート情報を管理するテーブル
@@ -160,4 +150,18 @@ models:
         description: ページビューが発生した日時
       - name: product_id
         description: 閲覧された商品のID
+
+  - name: stores
+    description: 利用可能店舗
+    columns:
+      - name: store_id
+        description: 店舗の一意識別子
+      - name: store_name
+        description: 店舗の名称
+      - name: address
+        description: 店舗の所在地
+      - name: can_qr_payment
+        description: 店舗でQR決済が利用可能かどうかを示すフラグ（1:可能、0:不可能）
+      - name: can_mobile_order
+        description: 店舗でモバイルオーダーが利用可能かどうかを示すフラグ（1:可能、0:不可能）
 

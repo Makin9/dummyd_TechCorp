@@ -25,12 +25,3 @@ models:
         description: 取引日時
       - name: store_id
         description: 取引を行った店舗のID
-  - name: credit_card_billing
-    description: クレジットカードの月次請求情報を管理するテーブル
-    columns:
-      - name: billing_id
-        description: 請求の一意のID
-      - name: card_number
-        description: 請求に関連するカードの番号
-      - name: billing_date
-        description: 請求日

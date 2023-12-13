@@ -1,5 +1,6 @@
 CREATE TABLE products (
     product_id SERIAL PRIMARY KEY,
+    store_id INT REFERENCES stores(store_id),
     product_name VARCHAR(255) NOT NULL,
     price DECIMAL(10,2) NOT NULL,
     category VARCHAR(255),
@@ -63,6 +64,14 @@ CREATE TABLE user_behaviors (
     product_id INT REFERENCES products(product_id),
     behavior_type VARCHAR(255) NOT NULL, -- 例: 'click', 'like', 'wishlist_add', 'cart_add'
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE stores (
+    store_id INT PRIMARY KEY,
+    store_name VARCHAR(255) NOT NULL,
+    address VARCHAR(255),
+    can_qr_payment BOOLEAN,
+    can_mobile_order BOOLEAN
 );
 
 -- GAを参照してデータを保存する
