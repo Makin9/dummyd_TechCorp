@@ -73,3 +73,5 @@ CREATE TABLE point_history (
 ### ダミーデータのデータモデルごとの必要行数
 - point_cards : 300
 - point_history : 3000
+
+<!-- TODO 個々のデータ生成から -->
