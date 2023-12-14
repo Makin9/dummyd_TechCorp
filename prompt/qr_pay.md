@@ -30,7 +30,7 @@ TechCorpは、顧客からの口コミやフィードバックを重要視して
 以下ルールを考慮してダミーデータを生成してください。
 また、ダミーデータ生成時、テーマ（季節性・時事性）を提示してください。
 
-1. **ユーザーIDは1~500で**
+1. **user_idは1~500で**
 2. **ユーザーの繰り返し行動**
 3. **nameなど名前については想像でいいので具体的に**
 4. **プロダクトやユーザ、キャンペーンなどは通年を想定し、ランダム性を持たせ、一意にすること**
@@ -43,14 +43,23 @@ TechCorpは、顧客からの口コミやフィードバックを重要視して
 11. **各テーブルのINDEX(ID)は連番にする**
 12. **データ間の整合性を保つ**
 13. **他のテーブルのIDを参照する場合、IDの組み合わせはランダムにする**
-
-
+14. **order_idは1~3000で**
+15. **store_idは1~100**
+16. **対象期間は2021年～2023年**
+    
 ### ダミーデータのデータモデル（DDL）
 
 ~~~
+CREATE TABLE qr_payments (
+    order_id SERIAL PRIMARY KEY,
+    user_id INT REFERENCES users(user_id),
+    payment_amount DECIMAL(10,2) NOT NULL,
+    payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    store_id INT REFERENCES stores(store_id)
+);
 
 ~~~
 
 
 ### ダミーデータのデータモデルごとの必要行数
-- :
+- qr_payments : 3000

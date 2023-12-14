@@ -1,24 +1,11 @@
 version: 2
 
 models:
-  - name: qr_payment_stores
-    description: QR決済が利用可能な店舗情報および各店舗で利用可能なサービス情報
-    columns:
-      - name: store_id
-        description: 店舗の一意識別子
-      - name: store_name
-        description: 店舗の名称
-      - name: address
-        description: 店舗の所在地
-      - name: can_qr_payment
-        description: 店舗でQR決済が利用可能かどうかを示すフラグ（1:可能、0:不可能）
-      - name: can_mobile_order
-        description: 店舗でモバイルオーダーが利用可能かどうかを示すフラグ（1:可能、0:不可能）
 
   - name: qr_payment_records
     description: ユーザのQR決済の履歴を管理するテーブル
     columns:
-      - name: payment_id
+      - name: order_id
         description: 決済の一意のID
       - name: user_id
         description: 決済を行ったユーザのID

@@ -5,17 +5,12 @@ models:
     description: ユーザのモバイルオーダーの注文情報を管理するテーブル
     columns:
       - name: order_id
-        description: 注文の一意のID
-      - name: user_id
-        description: 注文を行ったユーザのID
+        description: 注文のID
       - name: product_id
         description: 注文された商品のID
       - name: order_quantity
         description: 注文数量
-      - name: order_date
-        description: 注文日時
-      - name: pickup_store_id
-        description: ピックアップ予定の店舗ID
+
   - name: mobile_orders_coupons
     description: モバイルオーダーで利用可能なクーポンの情報を管理するテーブル
     columns:
@@ -29,3 +24,19 @@ models:
         description: クーポンの有効期限
       - name: creation_date
         description: クーポンの作成日時
+
+  - name: mobile_orders
+    description: モバイルオーダーの注文情報を管理するテーブル
+    columns:
+      - name: order_id
+        description: 注文の一意のID
+      - name: user_id
+        description: 注文を行ったユーザのID
+      - name: coupon_id
+        description: 利用されたクーポンID
+      - name: order_date
+        description: 注文日時
+      - name: pickup_store_id
+        description: ピックアップ予定の店舗ID
+      - name: total_amount
+        description: 注文の合計金額

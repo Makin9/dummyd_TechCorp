@@ -21,5 +21,11 @@ models:
         description: ポイント変動の対象となるカードのID
       - name: point_change
         description: ポイントの増減量
+      - name: change_type
+        description: ポイント利用タイプ(use,save)
       - name: change_date
         description: ポイント変動の日時
+      - name: order_id
+        description: 注文の一意のID
+      - name: order_type
+        description: 注文のタイプ(ec,mobile,qr)

@@ -1,101 +1,301 @@
-product_id,product_name,price,category,image_url
-1,Laptop,43.34,Electronics,https://example.com/images/Laptop.jpg
-2,Smartphone,173.33,Electronics,https://example.com/images/Smartphone.jpg
-3,Headphones,58.76,Electronics,https://example.com/images/Headphones.jpg
-4,Camera,87.18,Electronics,https://example.com/images/Camera.jpg
-5,Smartwatch,113.14,Electronics,https://example.com/images/Smartwatch.jpg
-6,Speaker,195.34,Electronics,https://example.com/images/Speaker.jpg
-7,Tablet,135.61,Electronics,https://example.com/images/Tablet.jpg
-8,Printer,100.27,Electronics,https://example.com/images/Printer.jpg
-9,Monitor,14.56,Electronics,https://example.com/images/Monitor.jpg
-10,Keyboard,31.41,Electronics,https://example.com/images/Keyboard.jpg
-11,Chair,65.25,Furniture,https://example.com/images/Chair.jpg
-12,Table,85.95,Furniture,https://example.com/images/Table.jpg
-13,Sofa,199.5,Furniture,https://example.com/images/Sofa.jpg
-14,Bed,80.02,Furniture,https://example.com/images/Bed.jpg
-15,Desk,199.45,Furniture,https://example.com/images/Desk.jpg
-16,Bookshelf,27.45,Furniture,https://example.com/images/Bookshelf.jpg
-17,Dresser,143.89,Furniture,https://example.com/images/Dresser.jpg
-18,Cabinet,200.0,Furniture,https://example.com/images/Cabinet.jpg
-19,Couch,68.78,Furniture,https://example.com/images/Couch.jpg
-20,Wardrobe,168.88,Furniture,https://example.com/images/Wardrobe.jpg
-21,Shirt,152.49,Clothing,https://example.com/images/Shirt.jpg
-22,Pants,87.03,Clothing,https://example.com/images/Pants.jpg
-23,Jacket,76.11,Clothing,https://example.com/images/Jacket.jpg
-24,Shoes,164.66,Clothing,https://example.com/images/Shoes.jpg
-25,Dress,70.72,Clothing,https://example.com/images/Dress.jpg
-26,Shorts,33.71,Clothing,https://example.com/images/Shorts.jpg
-27,Skirt,121.55,Clothing,https://example.com/images/Skirt.jpg
-28,Sweater,186.91,Clothing,https://example.com/images/Sweater.jpg
-29,Socks,133.03,Clothing,https://example.com/images/Socks.jpg
-30,Hat,18.44,Clothing,https://example.com/images/Hat.jpg
-31,Apple,86.23,Food,https://example.com/images/Apple.jpg
-32,Banana,33.15,Food,https://example.com/images/Banana.jpg
-33,Orange,93.44,Food,https://example.com/images/Orange.jpg
-34,Grapes,198.61,Food,https://example.com/images/Grapes.jpg
-35,Strawberry,111.86,Food,https://example.com/images/Strawberry.jpg
-36,Blueberry,157.41,Food,https://example.com/images/Blueberry.jpg
-37,Cherry,55.09,Food,https://example.com/images/Cherry.jpg
-38,Pineapple,21.55,Food,https://example.com/images/Pineapple.jpg
-39,Mango,62.01,Food,https://example.com/images/Mango.jpg
-40,Peach,150.6,Food,https://example.com/images/Peach.jpg
-41,Soccer Ball,14.94,Sports,https://example.com/images/Soccer_Ball.jpg
-42,Tennis Racket,11.64,Sports,https://example.com/images/Tennis_Racket.jpg
-43,Basketball,185.21,Sports,https://example.com/images/Basketball.jpg
-44,Baseball Bat,46.8,Sports,https://example.com/images/Baseball_Bat.jpg
-45,Volleyball,21.58,Sports,https://example.com/images/Volleyball.jpg
-46,Running Shoes,148.94,Sports,https://example.com/images/Running_Shoes.jpg
-47,Yoga Mat,112.44,Sports,https://example.com/images/Yoga_Mat.jpg
-48,Dumbbells,129.25,Sports,https://example.com/images/Dumbbells.jpg
-49,Bicycle,139.73,Sports,https://example.com/images/Bicycle.jpg
-50,Swim Goggles,67.9,Sports,https://example.com/images/Swim_Goggles.jpg
-51,Novel,159.2,Books,https://example.com/images/Novel.jpg
-52,Textbook,15.39,Books,https://example.com/images/Textbook.jpg
-53,Magazine,25.08,Books,https://example.com/images/Magazine.jpg
-54,Comic Book,75.5,Books,https://example.com/images/Comic_Book.jpg
-55,Cookbook,159.6,Books,https://example.com/images/Cookbook.jpg
-56,Biography,160.52,Books,https://example.com/images/Biography.jpg
-57,Poetry,45.24,Books,https://example.com/images/Poetry.jpg
-58,Mystery,103.27,Books,https://example.com/images/Mystery.jpg
-59,Science Fiction,54.12,Books,https://example.com/images/Science_Fiction.jpg
-60,Romance,18.05,Books,https://example.com/images/Romance.jpg
-61,Tire,151.83,Automotive,https://example.com/images/Tire.jpg
-62,Brake Pads,176.39,Automotive,https://example.com/images/Brake_Pads.jpg
-63,Oil Filter,89.63,Automotive,https://example.com/images/Oil_Filter.jpg
-64,Battery,68.2,Automotive,https://example.com/images/Battery.jpg
-65,Spark Plugs,187.14,Automotive,https://example.com/images/Spark_Plugs.jpg
-66,Windshield Wipers,126.37,Automotive,https://example.com/images/Windshield_Wipers.jpg
-67,Headlights,161.46,Automotive,https://example.com/images/Headlights.jpg
-68,Air Filter,22.96,Automotive,https://example.com/images/Air_Filter.jpg
-69,Car Charger,104.32,Automotive,https://example.com/images/Car_Charger.jpg
-70,Seat Cover,50.91,Automotive,https://example.com/images/Seat_Cover.jpg
-71,Lipstick,78.66,Beauty,https://example.com/images/Lipstick.jpg
-72,Mascara,91.98,Beauty,https://example.com/images/Mascara.jpg
-73,Foundation,189.05,Beauty,https://example.com/images/Foundation.jpg
-74,Perfume,52.21,Beauty,https://example.com/images/Perfume.jpg
-75,Nail Polish,23.06,Beauty,https://example.com/images/Nail_Polish.jpg
-76,Eyeliner,138.16,Beauty,https://example.com/images/Eyeliner.jpg
-77,Shampoo,173.61,Beauty,https://example.com/images/Shampoo.jpg
-78,Conditioner,157.5,Beauty,https://example.com/images/Conditioner.jpg
-79,Body Lotion,109.96,Beauty,https://example.com/images/Body_Lotion.jpg
-80,Face Wash,172.86,Beauty,https://example.com/images/Face_Wash.jpg
-81,Doll,11.3,Toys,https://example.com/images/Doll.jpg
-82,Action Figure,106.59,Toys,https://example.com/images/Action_Figure.jpg
-83,Lego Set,140.94,Toys,https://example.com/images/Lego_Set.jpg
-84,Puzzle,30.36,Toys,https://example.com/images/Puzzle.jpg
-85,Board Game,12.27,Toys,https://example.com/images/Board_Game.jpg
-86,Plush Toy,55.35,Toys,https://example.com/images/Plush_Toy.jpg
-87,Remote Control Car,100.18,Toys,https://example.com/images/Remote_Control_Car.jpg
-88,Building Blocks,101.42,Toys,https://example.com/images/Building_Blocks.jpg
-89,Playing Cards,111.5,Toys,https://example.com/images/Playing_Cards.jpg
-90,Video Game,151.58,Toys,https://example.com/images/Video_Game.jpg
-91,Cookware Set,171.74,Kitchen,https://example.com/images/Cookware_Set.jpg
-92,Cutlery Set,127.49,Kitchen,https://example.com/images/Cutlery_Set.jpg
-93,Blender,53.62,Kitchen,https://example.com/images/Blender.jpg
-94,Toaster,175.34,Kitchen,https://example.com/images/Toaster.jpg
-95,Coffee Maker,74.65,Kitchen,https://example.com/images/Coffee_Maker.jpg
-96,Mixing Bowls,77.43,Kitchen,https://example.com/images/Mixing_Bowls.jpg
-97,Measuring Cups,115.05,Kitchen,https://example.com/images/Measuring_Cups.jpg
-98,Baking Sheet,156.12,Kitchen,https://example.com/images/Baking_Sheet.jpg
-99,Spatula,144.81,Kitchen,https://example.com/images/Spatula.jpg
-100,Peeler,92.14,Kitchen,https://example.com/images/Peeler.jpg
+product_id,store_id,product_name,price,category,image_url
+1,73,Lipstick 1,121.06,Sports & Outdoors,https://example.com/product1.jpg
+2,17,Knife Set 2,420.91,Clothing,https://example.com/product2.jpg
+3,73,Jacket 3,162.63,Clothing,https://example.com/product3.jpg
+4,91,Knife Set 4,120.06,Clothing,https://example.com/product4.jpg
+5,36,Jacket 5,252.86,Beauty & Health,https://example.com/product5.jpg
+6,42,Yoga Mat 6,473.98,Clothing,https://example.com/product6.jpg
+7,4,Lipstick 7,259.4,Sports & Outdoors,https://example.com/product7.jpg
+8,51,Knife Set 8,177.03,Beauty & Health,https://example.com/product8.jpg
+9,61,Shampoo 9,47.98,Home & Kitchen,https://example.com/product9.jpg
+10,67,Headphones 10,291.1,Clothing,https://example.com/product10.jpg
+11,18,Sneakers 11,120.87,Home & Kitchen,https://example.com/product11.jpg
+12,6,Sneakers 12,190.07,Home & Kitchen,https://example.com/product12.jpg
+13,11,Foundation 13,196.77,Sports & Outdoors,https://example.com/product13.jpg
+14,73,Blender 14,381.51,Clothing,https://example.com/product14.jpg
+15,45,Perfume 15,123.5,Clothing,https://example.com/product15.jpg
+16,47,Smartphone 16,468.59,Beauty & Health,https://example.com/product16.jpg
+17,1,Moisturizer 17,373.77,Home & Kitchen,https://example.com/product17.jpg
+18,9,Moisturizer 18,245.75,Clothing,https://example.com/product18.jpg
+19,25,Golf Club 19,441.43,Home & Kitchen,https://example.com/product19.jpg
+20,92,Lipstick 20,185.99,Sports & Outdoors,https://example.com/product20.jpg
+21,15,Jacket 21,198.33,Electronics,https://example.com/product21.jpg
+22,86,Sneakers 22,73.39,Electronics,https://example.com/product22.jpg
+23,70,Laptop 23,391.49,Home & Kitchen,https://example.com/product23.jpg
+24,61,Moisturizer 24,206.58,Home & Kitchen,https://example.com/product24.jpg
+25,6,Coffee Maker 25,255.12,Home & Kitchen,https://example.com/product25.jpg
+26,41,Knife Set 26,240.77,Electronics,https://example.com/product26.jpg
+27,4,Yoga Mat 27,331.53,Electronics,https://example.com/product27.jpg
+28,41,Smartwatch 28,193.23,Sports & Outdoors,https://example.com/product28.jpg
+29,51,Perfume 29,458.77,Electronics,https://example.com/product29.jpg
+30,17,Laptop 30,221.64,Home & Kitchen,https://example.com/product30.jpg
+31,98,Camera 31,186.01,Electronics,https://example.com/product31.jpg
+32,82,Football 32,206.43,Clothing,https://example.com/product32.jpg
+33,36,Knife Set 33,385.48,Home & Kitchen,https://example.com/product33.jpg
+34,53,Smartphone 34,496.6,Clothing,https://example.com/product34.jpg
+35,86,Golf Club 35,434.59,Sports & Outdoors,https://example.com/product35.jpg
+36,19,Dinnerware 36,245.07,Sports & Outdoors,https://example.com/product36.jpg
+37,77,Running Shoes 37,152.77,Home & Kitchen,https://example.com/product37.jpg
+38,19,Knife Set 38,228.53,Beauty & Health,https://example.com/product38.jpg
+39,52,Dinnerware 39,178.57,Electronics,https://example.com/product39.jpg
+40,40,Smartwatch 40,129.33,Beauty & Health,https://example.com/product40.jpg
+41,66,Football 41,101.6,Sports & Outdoors,https://example.com/product41.jpg
+42,8,Bath Towel 42,478.38,Sports & Outdoors,https://example.com/product42.jpg
+43,21,Moisturizer 43,254.66,Beauty & Health,https://example.com/product43.jpg
+44,17,Bath Towel 44,63.89,Electronics,https://example.com/product44.jpg
+45,18,T-Shirt 45,198.11,Electronics,https://example.com/product45.jpg
+46,62,T-Shirt 46,200.47,Sports & Outdoors,https://example.com/product46.jpg
+47,91,Coffee Maker 47,261.63,Beauty & Health,https://example.com/product47.jpg
+48,83,Lipstick 48,490.22,Home & Kitchen,https://example.com/product48.jpg
+49,92,Dinnerware 49,488.55,Clothing,https://example.com/product49.jpg
+50,98,T-Shirt 50,287.29,Home & Kitchen,https://example.com/product50.jpg
+51,93,Shampoo 51,312.86,Clothing,https://example.com/product51.jpg
+52,6,Hat 52,341.06,Beauty & Health,https://example.com/product52.jpg
+53,94,Golf Club 53,256.09,Home & Kitchen,https://example.com/product53.jpg
+54,67,Foundation 54,248.47,Electronics,https://example.com/product54.jpg
+55,6,Smartwatch 55,164.12,Electronics,https://example.com/product55.jpg
+56,72,Blender 56,345.12,Electronics,https://example.com/product56.jpg
+57,89,Blender 57,55.03,Home & Kitchen,https://example.com/product57.jpg
+58,96,Camera 58,165.4,Electronics,https://example.com/product58.jpg
+59,90,Yoga Mat 59,446.58,Home & Kitchen,https://example.com/product59.jpg
+60,81,Blender 60,121.42,Home & Kitchen,https://example.com/product60.jpg
+61,50,Golf Club 61,484.12,Sports & Outdoors,https://example.com/product61.jpg
+62,24,Lipstick 62,492.24,Home & Kitchen,https://example.com/product62.jpg
+63,45,Yoga Mat 63,291.94,Electronics,https://example.com/product63.jpg
+64,75,Foundation 64,29.81,Clothing,https://example.com/product64.jpg
+65,11,Golf Club 65,55.8,Sports & Outdoors,https://example.com/product65.jpg
+66,11,Laptop 66,108.15,Clothing,https://example.com/product66.jpg
+67,72,Jeans 67,170.14,Home & Kitchen,https://example.com/product67.jpg
+68,23,Sneakers 68,65.42,Sports & Outdoors,https://example.com/product68.jpg
+69,34,T-Shirt 69,400.63,Electronics,https://example.com/product69.jpg
+70,26,Running Shoes 70,188.44,Beauty & Health,https://example.com/product70.jpg
+71,34,Shampoo 71,124.53,Beauty & Health,https://example.com/product71.jpg
+72,42,Coffee Maker 72,31.41,Home & Kitchen,https://example.com/product72.jpg
+73,90,Hat 73,197.51,Sports & Outdoors,https://example.com/product73.jpg
+74,91,Knife Set 74,12.21,Clothing,https://example.com/product74.jpg
+75,33,Yoga Mat 75,67.08,Home & Kitchen,https://example.com/product75.jpg
+76,34,Laptop 76,306.28,Home & Kitchen,https://example.com/product76.jpg
+77,67,Hat 77,468.12,Sports & Outdoors,https://example.com/product77.jpg
+78,59,Perfume 78,107.69,Beauty & Health,https://example.com/product78.jpg
+79,20,Dinnerware 79,373.12,Beauty & Health,https://example.com/product79.jpg
+80,97,Laptop 80,106.88,Electronics,https://example.com/product80.jpg
+81,58,Tennis Racket 81,10.73,Beauty & Health,https://example.com/product81.jpg
+82,71,Dinnerware 82,449.3,Home & Kitchen,https://example.com/product82.jpg
+83,20,Sneakers 83,424.59,Clothing,https://example.com/product83.jpg
+84,5,Knife Set 84,42.72,Sports & Outdoors,https://example.com/product84.jpg
+85,81,Running Shoes 85,96.8,Electronics,https://example.com/product85.jpg
+86,75,Jeans 86,124.81,Clothing,https://example.com/product86.jpg
+87,23,Blender 87,464.88,Beauty & Health,https://example.com/product87.jpg
+88,83,Camera 88,197.15,Beauty & Health,https://example.com/product88.jpg
+89,66,Camera 89,405.62,Electronics,https://example.com/product89.jpg
+90,5,Smartwatch 90,223.55,Clothing,https://example.com/product90.jpg
+91,97,Moisturizer 91,196.81,Electronics,https://example.com/product91.jpg
+92,41,Blender 92,385.02,Home & Kitchen,https://example.com/product92.jpg
+93,10,T-Shirt 93,311.72,Electronics,https://example.com/product93.jpg
+94,25,Smartphone 94,141.97,Clothing,https://example.com/product94.jpg
+95,83,Dinnerware 95,295.58,Clothing,https://example.com/product95.jpg
+96,59,Shampoo 96,354.89,Beauty & Health,https://example.com/product96.jpg
+97,79,Knife Set 97,415.27,Electronics,https://example.com/product97.jpg
+98,31,Bath Towel 98,341.82,Home & Kitchen,https://example.com/product98.jpg
+99,59,Headphones 99,323.97,Sports & Outdoors,https://example.com/product99.jpg
+100,67,Yoga Mat 100,301.99,Beauty & Health,https://example.com/product100.jpg
+101,21,Football 101,55.1,Electronics,https://example.com/product101.jpg
+102,91,Football 102,473.14,Sports & Outdoors,https://example.com/product102.jpg
+103,43,Tennis Racket 103,360.27,Clothing,https://example.com/product103.jpg
+104,84,Headphones 104,143.71,Beauty & Health,https://example.com/product104.jpg
+105,18,Golf Club 105,349.25,Home & Kitchen,https://example.com/product105.jpg
+106,61,Dinnerware 106,314.2,Home & Kitchen,https://example.com/product106.jpg
+107,99,Perfume 107,332.84,Beauty & Health,https://example.com/product107.jpg
+108,72,Running Shoes 108,195.67,Beauty & Health,https://example.com/product108.jpg
+109,8,Perfume 109,290.86,Beauty & Health,https://example.com/product109.jpg
+110,70,Camera 110,333.41,Electronics,https://example.com/product110.jpg
+111,11,T-Shirt 111,108.81,Clothing,https://example.com/product111.jpg
+112,67,Camera 112,258.93,Sports & Outdoors,https://example.com/product112.jpg
+113,44,Jeans 113,68.97,Home & Kitchen,https://example.com/product113.jpg
+114,1,T-Shirt 114,61.71,Clothing,https://example.com/product114.jpg
+115,100,Jacket 115,456.42,Clothing,https://example.com/product115.jpg
+116,11,Smartphone 116,71.03,Clothing,https://example.com/product116.jpg
+117,14,Foundation 117,447.7,Clothing,https://example.com/product117.jpg
+118,55,Camera 118,240.2,Home & Kitchen,https://example.com/product118.jpg
+119,78,Lipstick 119,232.9,Clothing,https://example.com/product119.jpg
+120,46,Blender 120,176.51,Clothing,https://example.com/product120.jpg
+121,73,Moisturizer 121,213.95,Sports & Outdoors,https://example.com/product121.jpg
+122,58,Running Shoes 122,194.84,Home & Kitchen,https://example.com/product122.jpg
+123,43,Hat 123,286.84,Sports & Outdoors,https://example.com/product123.jpg
+124,49,Football 124,174.44,Electronics,https://example.com/product124.jpg
+125,66,Coffee Maker 125,412.77,Clothing,https://example.com/product125.jpg
+126,47,Tennis Racket 126,124.45,Clothing,https://example.com/product126.jpg
+127,82,Smartwatch 127,131.75,Beauty & Health,https://example.com/product127.jpg
+128,16,Dinnerware 128,245.47,Clothing,https://example.com/product128.jpg
+129,18,Golf Club 129,468.19,Clothing,https://example.com/product129.jpg
+130,41,Sneakers 130,21.72,Sports & Outdoors,https://example.com/product130.jpg
+131,3,T-Shirt 131,364.47,Clothing,https://example.com/product131.jpg
+132,24,Coffee Maker 132,12.94,Sports & Outdoors,https://example.com/product132.jpg
+133,94,Yoga Mat 133,208.38,Clothing,https://example.com/product133.jpg
+134,17,Foundation 134,384.46,Clothing,https://example.com/product134.jpg
+135,3,Coffee Maker 135,228.58,Sports & Outdoors,https://example.com/product135.jpg
+136,44,Perfume 136,220.45,Home & Kitchen,https://example.com/product136.jpg
+137,78,Football 137,134.08,Electronics,https://example.com/product137.jpg
+138,25,Camera 138,242.8,Beauty & Health,https://example.com/product138.jpg
+139,6,Knife Set 139,121.85,Clothing,https://example.com/product139.jpg
+140,53,Running Shoes 140,148.93,Electronics,https://example.com/product140.jpg
+141,83,Running Shoes 141,330.11,Beauty & Health,https://example.com/product141.jpg
+142,8,Perfume 142,303.73,Clothing,https://example.com/product142.jpg
+143,90,Hat 143,465.48,Beauty & Health,https://example.com/product143.jpg
+144,40,Jacket 144,484.75,Sports & Outdoors,https://example.com/product144.jpg
+145,50,Knife Set 145,265.97,Beauty & Health,https://example.com/product145.jpg
+146,7,Blender 146,52.9,Clothing,https://example.com/product146.jpg
+147,77,Knife Set 147,156.95,Beauty & Health,https://example.com/product147.jpg
+148,99,Lipstick 148,263.72,Sports & Outdoors,https://example.com/product148.jpg
+149,92,Foundation 149,339.85,Sports & Outdoors,https://example.com/product149.jpg
+150,22,Hat 150,473.64,Beauty & Health,https://example.com/product150.jpg
+151,46,Dinnerware 151,86.0,Electronics,https://example.com/product151.jpg
+152,10,Dinnerware 152,27.98,Clothing,https://example.com/product152.jpg
+153,53,Smartwatch 153,436.32,Electronics,https://example.com/product153.jpg
+154,7,Tennis Racket 154,404.53,Sports & Outdoors,https://example.com/product154.jpg
+155,57,Camera 155,385.22,Electronics,https://example.com/product155.jpg
+156,46,Camera 156,239.61,Electronics,https://example.com/product156.jpg
+157,78,Smartphone 157,342.11,Electronics,https://example.com/product157.jpg
+158,80,Shampoo 158,211.62,Clothing,https://example.com/product158.jpg
+159,97,Moisturizer 159,104.11,Beauty & Health,https://example.com/product159.jpg
+160,33,Yoga Mat 160,201.54,Beauty & Health,https://example.com/product160.jpg
+161,87,Football 161,395.65,Home & Kitchen,https://example.com/product161.jpg
+162,40,Foundation 162,402.91,Beauty & Health,https://example.com/product162.jpg
+163,73,Smartwatch 163,480.96,Home & Kitchen,https://example.com/product163.jpg
+164,59,Football 164,444.96,Beauty & Health,https://example.com/product164.jpg
+165,53,Golf Club 165,344.22,Home & Kitchen,https://example.com/product165.jpg
+166,24,Yoga Mat 166,265.25,Electronics,https://example.com/product166.jpg
+167,4,Football 167,364.72,Clothing,https://example.com/product167.jpg
+168,59,Jeans 168,99.77,Sports & Outdoors,https://example.com/product168.jpg
+169,34,Moisturizer 169,462.31,Clothing,https://example.com/product169.jpg
+170,25,Yoga Mat 170,359.16,Clothing,https://example.com/product170.jpg
+171,50,Moisturizer 171,301.3,Electronics,https://example.com/product171.jpg
+172,9,Foundation 172,222.68,Electronics,https://example.com/product172.jpg
+173,46,Smartwatch 173,320.44,Sports & Outdoors,https://example.com/product173.jpg
+174,13,Sneakers 174,312.66,Electronics,https://example.com/product174.jpg
+175,16,Football 175,450.44,Beauty & Health,https://example.com/product175.jpg
+176,4,Running Shoes 176,289.66,Clothing,https://example.com/product176.jpg
+177,45,Moisturizer 177,114.55,Beauty & Health,https://example.com/product177.jpg
+178,3,T-Shirt 178,226.28,Clothing,https://example.com/product178.jpg
+179,23,Knife Set 179,129.05,Sports & Outdoors,https://example.com/product179.jpg
+180,52,Headphones 180,453.43,Sports & Outdoors,https://example.com/product180.jpg
+181,79,Laptop 181,423.33,Home & Kitchen,https://example.com/product181.jpg
+182,89,Smartphone 182,282.35,Electronics,https://example.com/product182.jpg
+183,84,Smartwatch 183,106.23,Sports & Outdoors,https://example.com/product183.jpg
+184,2,Blender 184,31.34,Clothing,https://example.com/product184.jpg
+185,42,Running Shoes 185,75.74,Home & Kitchen,https://example.com/product185.jpg
+186,59,Lipstick 186,227.18,Home & Kitchen,https://example.com/product186.jpg
+187,71,Coffee Maker 187,340.36,Home & Kitchen,https://example.com/product187.jpg
+188,96,Smartwatch 188,119.76,Home & Kitchen,https://example.com/product188.jpg
+189,89,Tennis Racket 189,345.41,Sports & Outdoors,https://example.com/product189.jpg
+190,64,Bath Towel 190,432.36,Home & Kitchen,https://example.com/product190.jpg
+191,61,Blender 191,381.05,Clothing,https://example.com/product191.jpg
+192,11,Shampoo 192,218.51,Electronics,https://example.com/product192.jpg
+193,7,Football 193,326.41,Beauty & Health,https://example.com/product193.jpg
+194,69,Sneakers 194,494.3,Clothing,https://example.com/product194.jpg
+195,52,Tennis Racket 195,443.85,Sports & Outdoors,https://example.com/product195.jpg
+196,34,Lipstick 196,175.69,Beauty & Health,https://example.com/product196.jpg
+197,4,Golf Club 197,345.87,Home & Kitchen,https://example.com/product197.jpg
+198,83,Jacket 198,89.97,Beauty & Health,https://example.com/product198.jpg
+199,67,T-Shirt 199,283.11,Home & Kitchen,https://example.com/product199.jpg
+200,13,Perfume 200,184.7,Beauty & Health,https://example.com/product200.jpg
+201,11,Perfume 201,224.69,Clothing,https://example.com/product201.jpg
+202,43,Headphones 202,225.06,Beauty & Health,https://example.com/product202.jpg
+203,46,Golf Club 203,334.98,Home & Kitchen,https://example.com/product203.jpg
+204,13,Foundation 204,424.54,Home & Kitchen,https://example.com/product204.jpg
+205,61,T-Shirt 205,239.6,Home & Kitchen,https://example.com/product205.jpg
+206,5,Smartphone 206,81.83,Sports & Outdoors,https://example.com/product206.jpg
+207,20,Yoga Mat 207,379.54,Beauty & Health,https://example.com/product207.jpg
+208,67,T-Shirt 208,378.31,Beauty & Health,https://example.com/product208.jpg
+209,81,Foundation 209,477.38,Sports & Outdoors,https://example.com/product209.jpg
+210,37,Dinnerware 210,203.09,Beauty & Health,https://example.com/product210.jpg
+211,5,Moisturizer 211,237.3,Sports & Outdoors,https://example.com/product211.jpg
+212,1,Tennis Racket 212,274.89,Home & Kitchen,https://example.com/product212.jpg
+213,49,Jeans 213,447.14,Sports & Outdoors,https://example.com/product213.jpg
+214,44,Bath Towel 214,355.07,Clothing,https://example.com/product214.jpg
+215,21,Football 215,20.43,Clothing,https://example.com/product215.jpg
+216,71,Tennis Racket 216,111.59,Beauty & Health,https://example.com/product216.jpg
+217,90,Knife Set 217,428.41,Clothing,https://example.com/product217.jpg
+218,19,Sneakers 218,296.88,Home & Kitchen,https://example.com/product218.jpg
+219,21,Smartphone 219,438.22,Sports & Outdoors,https://example.com/product219.jpg
+220,23,Shampoo 220,211.59,Clothing,https://example.com/product220.jpg
+221,100,Camera 221,113.13,Sports & Outdoors,https://example.com/product221.jpg
+222,21,Knife Set 222,12.03,Clothing,https://example.com/product222.jpg
+223,82,T-Shirt 223,498.06,Sports & Outdoors,https://example.com/product223.jpg
+224,88,Bath Towel 224,76.83,Sports & Outdoors,https://example.com/product224.jpg
+225,32,Shampoo 225,325.05,Sports & Outdoors,https://example.com/product225.jpg
+226,80,Laptop 226,249.96,Sports & Outdoors,https://example.com/product226.jpg
+227,43,Knife Set 227,196.27,Beauty & Health,https://example.com/product227.jpg
+228,4,Headphones 228,273.23,Home & Kitchen,https://example.com/product228.jpg
+229,62,Yoga Mat 229,48.36,Home & Kitchen,https://example.com/product229.jpg
+230,81,Shampoo 230,485.32,Beauty & Health,https://example.com/product230.jpg
+231,87,Knife Set 231,251.44,Home & Kitchen,https://example.com/product231.jpg
+232,51,Coffee Maker 232,17.49,Beauty & Health,https://example.com/product232.jpg
+233,6,Jacket 233,215.48,Sports & Outdoors,https://example.com/product233.jpg
+234,29,Foundation 234,381.03,Electronics,https://example.com/product234.jpg
+235,31,Bath Towel 235,162.92,Clothing,https://example.com/product235.jpg
+236,82,Laptop 236,375.06,Home & Kitchen,https://example.com/product236.jpg
+237,37,Lipstick 237,386.01,Beauty & Health,https://example.com/product237.jpg
+238,43,Moisturizer 238,127.17,Electronics,https://example.com/product238.jpg
+239,22,Smartwatch 239,484.31,Electronics,https://example.com/product239.jpg
+240,31,Sneakers 240,23.67,Clothing,https://example.com/product240.jpg
+241,46,Foundation 241,433.17,Sports & Outdoors,https://example.com/product241.jpg
+242,29,Lipstick 242,261.2,Electronics,https://example.com/product242.jpg
+243,21,Perfume 243,85.16,Home & Kitchen,https://example.com/product243.jpg
+244,54,Yoga Mat 244,136.61,Electronics,https://example.com/product244.jpg
+245,60,Knife Set 245,300.82,Clothing,https://example.com/product245.jpg
+246,47,Lipstick 246,146.44,Clothing,https://example.com/product246.jpg
+247,73,Sneakers 247,420.83,Sports & Outdoors,https://example.com/product247.jpg
+248,18,T-Shirt 248,117.57,Clothing,https://example.com/product248.jpg
+249,50,Jacket 249,198.19,Home & Kitchen,https://example.com/product249.jpg
+250,73,Perfume 250,258.34,Sports & Outdoors,https://example.com/product250.jpg
+251,99,Blender 251,176.49,Home & Kitchen,https://example.com/product251.jpg
+252,2,T-Shirt 252,413.83,Electronics,https://example.com/product252.jpg
+253,21,Hat 253,139.3,Electronics,https://example.com/product253.jpg
+254,75,Moisturizer 254,53.6,Electronics,https://example.com/product254.jpg
+255,1,Camera 255,85.84,Sports & Outdoors,https://example.com/product255.jpg
+256,88,Bath Towel 256,317.2,Clothing,https://example.com/product256.jpg
+257,50,Headphones 257,286.15,Home & Kitchen,https://example.com/product257.jpg
+258,92,Headphones 258,41.02,Clothing,https://example.com/product258.jpg
+259,23,Lipstick 259,496.59,Beauty & Health,https://example.com/product259.jpg
+260,20,Knife Set 260,244.93,Beauty & Health,https://example.com/product260.jpg
+261,3,Shampoo 261,166.52,Home & Kitchen,https://example.com/product261.jpg
+262,4,Dinnerware 262,367.29,Home & Kitchen,https://example.com/product262.jpg
+263,42,Perfume 263,21.9,Electronics,https://example.com/product263.jpg
+264,66,Headphones 264,222.78,Sports & Outdoors,https://example.com/product264.jpg
+265,1,Sneakers 265,335.56,Beauty & Health,https://example.com/product265.jpg
+266,5,Lipstick 266,481.45,Electronics,https://example.com/product266.jpg
+267,7,Jacket 267,383.2,Electronics,https://example.com/product267.jpg
+268,100,Smartwatch 268,443.73,Clothing,https://example.com/product268.jpg
+269,15,Hat 269,68.26,Electronics,https://example.com/product269.jpg
+270,74,Camera 270,220.59,Sports & Outdoors,https://example.com/product270.jpg
+271,79,Blender 271,25.58,Sports & Outdoors,https://example.com/product271.jpg
+272,19,Smartwatch 272,143.28,Home & Kitchen,https://example.com/product272.jpg
+273,100,Camera 273,198.31,Home & Kitchen,https://example.com/product273.jpg
+274,20,Tennis Racket 274,178.47,Clothing,https://example.com/product274.jpg
+275,87,Laptop 275,193.13,Beauty & Health,https://example.com/product275.jpg
+276,49,Tennis Racket 276,403.51,Clothing,https://example.com/product276.jpg
+277,4,Camera 277,102.88,Home & Kitchen,https://example.com/product277.jpg
+278,54,Shampoo 278,414.0,Clothing,https://example.com/product278.jpg
+279,56,Perfume 279,275.54,Clothing,https://example.com/product279.jpg
+280,73,Jeans 280,175.99,Beauty & Health,https://example.com/product280.jpg
+281,88,Smartphone 281,280.6,Clothing,https://example.com/product281.jpg
+282,43,Laptop 282,89.1,Sports & Outdoors,https://example.com/product282.jpg
+283,92,Knife Set 283,252.77,Sports & Outdoors,https://example.com/product283.jpg
+284,32,Perfume 284,20.76,Sports & Outdoors,https://example.com/product284.jpg
+285,18,Football 285,432.86,Beauty & Health,https://example.com/product285.jpg
+286,47,Golf Club 286,172.47,Sports & Outdoors,https://example.com/product286.jpg
+287,66,Moisturizer 287,178.58,Clothing,https://example.com/product287.jpg
+288,28,Lipstick 288,497.62,Electronics,https://example.com/product288.jpg
+289,69,Football 289,310.59,Electronics,https://example.com/product289.jpg
+290,52,Football 290,214.65,Beauty & Health,https://example.com/product290.jpg
+291,10,Smartwatch 291,397.42,Sports & Outdoors,https://example.com/product291.jpg
+292,17,Lipstick 292,43.16,Electronics,https://example.com/product292.jpg
+293,53,Perfume 293,289.55,Clothing,https://example.com/product293.jpg
+294,73,Blender 294,265.14,Sports & Outdoors,https://example.com/product294.jpg
+295,85,Golf Club 295,432.0,Electronics,https://example.com/product295.jpg
+296,45,Coffee Maker 296,297.24,Beauty & Health,https://example.com/product296.jpg
+297,13,Smartwatch 297,247.78,Home & Kitchen,https://example.com/product297.jpg
+298,56,Tennis Racket 298,264.91,Home & Kitchen,https://example.com/product298.jpg
+299,56,Smartphone 299,393.13,Sports & Outdoors,https://example.com/product299.jpg
+300,32,Jacket 300,180.19,Clothing,https://example.com/product300.jpg

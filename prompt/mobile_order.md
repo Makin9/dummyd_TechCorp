@@ -30,7 +30,7 @@ TechCorpは、顧客からの口コミやフィードバックを重要視して
 以下ルールを考慮してダミーデータを生成してください。
 また、ダミーデータ生成時、テーマ（季節性・時事性）を提示してください。
 
-1. **ユーザーIDは1~500で**
+1. **user_idは1~500で**
 2. **ユーザーの繰り返し行動**
 3. **nameなど名前については想像でいいので具体的に**
 4. **プロダクトやユーザ、キャンペーンなどは通年を想定し、ランダム性を持たせ、一意にすること**
@@ -43,14 +43,46 @@ TechCorpは、顧客からの口コミやフィードバックを重要視して
 11. **各テーブルのINDEX(ID)は連番にする**
 12. **データ間の整合性を保つ**
 13. **他のテーブルのIDを参照する場合、IDの組み合わせはランダムにする**
-
+14. **product_idは1~300で**
+15. **coupon_idは1~500**
+16. **pickup_store_idは1~100**
+17. **対象期間は2021年～2023年**
 
 ### ダミーデータのデータモデル（DDL）
 
 ~~~
+-- モバイルオーダーの注文情報テーブル
+CREATE TABLE mobile_orders_info (
+    order_id INT REFERENCES mobile_orders(order_id),
+    product_id INT REFERENCES products(product_id),
+    order_quantity INT NOT NULL
+);
+
+-- モバイルオーダーで利用可能なクーポン情報テーブル
+CREATE TABLE mobile_orders_coupons (
+    coupon_id INT PRIMARY KEY,
+    coupon_code VARCHAR(255) NOT NULL,
+    discount_value DECIMAL(10, 2) NOT NULL,
+    expiration_date DATE NOT NULL,
+    creation_date TIMESTAMP NOT NULL,
+    used_status BOOLEAN NOT NULL DEFAULT FALSE
+);
+
+-- モバイルオーダーの注文情報テーブル
+CREATE TABLE mobile_orders (
+    order_id INT PRIMARY KEY,
+    user_id INT REFERENCES users(user_id),
+    coupon_id INT NULL,
+    order_date TIMESTAMP NOT NULL,
+    pickup_store_id INT REFERENCES stores(store_id),
+    total_amount DECIMAL(10, 2),
+    FOREIGN KEY (coupon_id) REFERENCES mobile_orders_coupons(coupon_id)
+);
 
 ~~~
 
 
 ### ダミーデータのデータモデルごとの必要行数
-- :
+- mobile_orders_info : 6000
+- mobile_orders_coupons : 1000
+- mobile_orders : 3000

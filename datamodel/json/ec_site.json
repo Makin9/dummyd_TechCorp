@@ -1,121 +1,147 @@
 {
     "b2c_ec_products": {
-        "日本語テーブル名": "B2C EC 商品情報",
-        "概要": "B2C ECサイトに掲載されている商品情報",
-        "カラム": {
-            "product_id": {"日本語名": "商品ID", "概要": "商品の一意識別子"},
-            "product_name": {"日本語名": "商品名", "概要": "商品の名称"},
-            "price": {"日本語名": "価格", "概要": "商品の価格"},
-            "category": {"日本語名": "カテゴリー", "概要": "商品が属するカテゴリ"},
-            "image_url": {"日本語名": "商品画像URL", "概要": "商品の画像リンク"}
+        "name": "B2C EC 商品情報",
+        "description": "B2C ECサイトに掲載されている商品情報",
+        "columns": {
+            "product_id": {"name": "商品ID", "description": "商品の一意識別子"},
+            "product_name": {"name": "商品名", "description": "商品の名称"},
+            "price": {"name": "価格", "description": "商品の価格"},
+            "category": {"name": "カテゴリー", "description": "商品が属するカテゴリ"},
+            "image_url": {"name": "商品画像URL", "description": "商品の画像リンク"}
         }
     },
     "orders": {
-        "日本語テーブル名": "注文情報",
-        "概要": "ユーザーの注文情報",
-        "カラム": {
-            "order_id": {"日本語名": "注文ID", "概要": "注文の一意識別子"},
-            "user_id": {"日本語名": "ユーザーID", "概要": "注文を行ったユーザーのID"},
-            "order_date": {"日本語名": "注文日", "概要": "注文が行われた日時"},
-            "shipping_fee": {"日本語名": "送料", "概要": "注文の送料"}
+        "name": "注文情報",
+        "description": "ユーザーの注文情報",
+        "columns": {
+            "order_id": {"name": "注文ID", "description": "注文の一意識別子"},
+            "user_id": {"name": "ユーザーID", "description": "注文を行ったユーザーのID"},
+            "order_date": {"name": "注文日", "description": "注文が行われた日時"},
+            "shipping_fee": {"name": "送料", "description": "注文の送料"}
         }
     },
     "order_details": {
-        "日本語テーブル名": "注文詳細",
-        "概要": "注文された商品の詳細",
-        "カラム": {
+        "name": "注文詳細",
+        "description": "注文された商品の詳細",
+        "columns": {
             
-            "orderd_id": {"日本語名": "注文詳細ID", "概要": "注文詳細の一意識別子"},
-            "order_id": {"日本語名": "注文ID", "概要": "注文の一意識別子"},
-            "product_id": {"日本語名": "商品ID", "概要": "注文された商品のID"},
-            "quantity": {"日本語名": "数量", "概要": "注文された商品の数量"},
-            "price": {"日本語名": "価格", "概要": "注文された商品の価格"}
+            "orderd_id": {"name": "注文詳細ID", "description": "注文詳細の一意識別子"},
+            "order_id": {"name": "注文ID", "description": "注文の一意識別子"},
+            "product_id": {"name": "商品ID", "description": "注文された商品のID"},
+            "quantity": {"name": "数量", "description": "注文された商品の数量"},
+            "price": {"name": "価格", "description": "注文された商品の価格"}
         }
     },
     "reviews": {
-        "日本語テーブル名": "レビュー",
-        "概要": "商品またはサービスのレビュー",
-        "カラム": {
-            "review_id": {"日本語名": "レビューID", "概要": "レビューの一意識別子"},
-            "product_id": {"日本語名": "商品ID", "概要": "レビューされた商品のID"},
-            "user_id": {"日本語名": "ユーザーID", "概要": "レビューを投稿したユーザーのID"},
-            "review_content": {"日本語名": "レビュー内容", "概要": "レビューのテキスト内容"},
-            "stars": {"日本語名": "評価", "概要": "1から5までの評価"},
-            "post_date": {"日本語名": "投稿日", "概要": "レビューが投稿された日時"}
+        "name": "レビュー",
+        "description": "商品またはサービスのレビュー",
+        "columns": {
+            "review_id": {"name": "レビューID", "description": "レビューの一意識別子"},
+            "product_id": {"name": "商品ID", "description": "レビューされた商品のID"},
+            "user_id": {"name": "ユーザーID", "description": "レビューを投稿したユーザーのID"},
+            "review_content": {"name": "レビュー内容", "description": "レビューのテキスト内容"},
+            "stars": {"name": "評価", "description": "1から5までの評価"},
+            "post_date": {"name": "投稿日", "description": "レビューが投稿された日時"}
         }
     },
     "carts": {
-        "日本語テーブル名": "カート",
-        "概要": "ユーザーのショッピングカート",
-        "カラム": {
-            "cart_id": {"日本語名": "カートID", "概要": "カートの一意識別子"},
-            "user_id": {"日本語名": "ユーザーID", "概要": "カートの所有者のユーザーID"},
-            "product_id": {"日本語名": "商品ID", "概要": "カートに追加された商品のID"},
-            "quantity": {"日本語名": "数量", "概要": "カートに追加された商品の数量"}
+        "name": "カート",
+        "description": "ユーザーのショッピングカート",
+        "columns": {
+            "cart_id": {"name": "カートID", "description": "カートの一意識別子"},
+            "user_id": {"name": "ユーザーID", "description": "カートの所有者のユーザーID"},
+            "product_id": {"name": "商品ID", "description": "カートに追加された商品のID"},
+            "quantity": {"name": "数量", "description": "カートに追加された商品の数量"}
         }
     },
     "product_views": {
-        "日本語テーブル名": "商品閲覧",
-        "概要": "商品の閲覧履歴",
-        "カラム": {
-            "view_id": {"日本語名": "閲覧ID", "概要": "閲覧の一意識別子"},
-            "user_id": {"日本語名": "ユーザーID", "概要": "商品を閲覧したユーザーのID"},
-            "product_id": {"日本語名": "商品ID", "概要": "閲覧された商品のID"},
-            "view_date": {"日本語名": "閲覧日", "概要": "商品が閲覧された日時"}
+        "name": "商品閲覧",
+        "description": "商品の閲覧履歴",
+        "columns": {
+            "view_id": {"name": "閲覧ID", "description": "閲覧の一意識別子"},
+            "user_id": {"name": "ユーザーID", "description": "商品を閲覧したユーザーのID"},
+            "product_id": {"name": "商品ID", "description": "閲覧された商品のID"},
+            "view_date": {"name": "閲覧日", "description": "商品が閲覧された日時"}
         }
     },
     "recommendations": {
-        "日本語テーブル名": "商品推薦",
-        "概要": "商品の推薦情報",
-        "カラム": {
-            "recommendation_id": {"日本語名": "推薦ID", "概要": "推薦の一意識別子"},
-            "product_id": {"日本語名": "商品ID", "概要": "推薦される商品のID"},
-            "recommended_product_id": {"日本語名": "推薦商品ID", "概要": "推薦された商品のID"}
+        "name": "商品推薦",
+        "description": "商品の推薦情報",
+        "columns": {
+            "recommendation_id": {"name": "推薦ID", "description": "推薦の一意識別子"},
+            "product_id": {"name": "商品ID", "description": "推薦される商品のID"},
+            "recommended_product_id": {"name": "推薦商品ID", "description": "推薦された商品のID"}
         }
     },
     "campaigns": {
-        "日本語テーブル名": "キャンペーン",
-        "概要": "マーケティングキャンペーン情報",
-        "カラム": {
-            "campaign_id": {"日本語名": "キャンペーンID", "概要": "キャンペーンの一意識別子"},
-            "campaign_name": {"日本語名": "キャンペーン名", "概要": "キャンペーンの名称"},
-            "start_date": {"日本語名": "開始日", "概要": "キャンペーンの開始日"},
-            "end_date": {"日本語名": "終了日", "概要": "キャンペーンの終了日"}
+        "name": "キャンペーン",
+        "description": "マーケティングキャンペーン情報",
+        "columns": {
+            "campaign_id": {"name": "キャンペーンID", "description": "キャンペーンの一意識別子"},
+            "campaign_name": {"name": "キャンペーン名", "description": "キャンペーンの名称"},
+            "start_date": {"name": "開始日", "description": "キャンペーンの開始日"},
+            "end_date": {"name": "終了日", "description": "キャンペーンの終了日"}
         }
     },
     "user_behaviors": {
-        "日本語テーブル名": "ユーザー行動",
-        "概要": "ユーザーの商品に対する行動履歴",
-        "カラム": {
-            "behavior_id": {"日本語名": "行動ID", "概要": "行動の一意識別子"},
-            "user_id": {"日本語名": "ユーザーID", "概要": "行動を行ったユーザーのID"},
-            "product_id": {"日本語名": "商品ID", "概要": "対象の商品ID"},
-            "behavior_type": {"日本語名": "行動タイプ", "概要": "行動の種類（例：クリック、いいね、ウィッシュリスト追加、カート追加）"},
-            "timestamp": {"日本語名": "タイムスタンプ", "概要": "行動が行われた日時"}
+        "name": "ユーザー行動",
+        "description": "ユーザーの商品に対する行動履歴",
+        "columns": {
+            "behavior_id": {"name": "行動ID", "description": "行動の一意識別子"},
+            "user_id": {"name": "ユーザーID", "description": "行動を行ったユーザーのID"},
+            "product_id": {"name": "商品ID", "description": "対象の商品ID"},
+            "behavior_type": {"name": "行動タイプ", "description": "行動の種類（例：クリック、いいね、ウィッシュリスト追加、カート追加）"},
+            "timestamp": {"name": "タイムスタンプ", "description": "行動が行われた日時"}
         }
     },
     "ga_sessions": {
-        "日本語テーブル名": "GAセッション",
-        "概要": "Google Analyticsからのセッションデータ",
-        "カラム": {
-            "session_id": {"日本語名": "セッションID", "概要": "セッションの一意識別子"},
-            "user_id": {"日本語名": "ユーザーID", "概要": "セッションを持つユーザーのID"},
-            "session_start": {"日本語名": "セッション開始", "概要": "セッションが開始された時間"},
-            "session_end": {"日本語名": "セッション終了", "概要": "セッションが終了した時間"},
-            "source": {"日本語名": "ソース", "概要": "セッションのソース"},
-            "medium": {"日本語名": "メディア", "概要": "セッションのメディア"},
-            "device_category": {"日本語名": "デバイスカテゴリ", "概要": "ユーザーが使用したデバイスの種類"}
+        "name": "GAセッション",
+        "description": "Google Analyticsからのセッションデータ",
+        "columns": {
+            "session_id": {"name": "セッションID", "description": "セッションの一意識別子"},
+            "user_id": {"name": "ユーザーID", "description": "セッションを持つユーザーのID"},
+            "session_start": {"name": "セッション開始", "description": "セッションが開始された時間"},
+            "session_end": {"name": "セッション終了", "description": "セッションが終了した時間"},
+            "source": {"name": "ソース", "description": "セッションのソース"},
+            "medium": {"name": "メディア", "description": "セッションのメディア"},
+            "device_category": {"name": "デバイスカテゴリ", "description": "ユーザーが使用したデバイスの種類"}
         }
     },
     "ga_pageviews": {
-        "日本語テーブル名": "GAページビュー",
-        "概要": "Google Analyticsからのページビューデータ",
-        "カラム": {
-            "view_id": {"日本語名": "ビューID", "概要": "ページビューの一意識別子"},
-            "session_id": {"日本語名": "セッションID", "概要": "関連するセッションのID"},
-            "page_path": {"日本語名": "ページパス", "概要": "ビューが発生したページのパス"},
-            "timestamp": {"日本語名": "タイムスタンプ", "概要": "ページビューの発生時間"},
-            "product_id": {"日本語名": "商品ID", "概要": "閲覧された商品のID"}
+        "name": "GAページビュー",
+        "description": "Google Analyticsからのページビューデータ",
+        "columns": {
+            "view_id": {"name": "ビューID", "description": "ページビューの一意識別子"},
+            "session_id": {"name": "セッションID", "description": "関連するセッションのID"},
+            "page_path": {"name": "ページパス", "description": "ビューが発生したページのパス"},
+            "timestamp": {"name": "タイムスタンプ", "description": "ページビューの発生時間"},
+            "product_id": {"name": "商品ID", "description": "閲覧された商品のID"}
+        }
+    },
+    "stores": {
+        "name": "店舗情報",
+        "description": "店舗情報",
+        "columns": {
+            "store_id": {
+                "name": "店舗ID",
+                "description": "店舗の一意識別子"
+            },
+            "store_name": {
+                "name": "店舗名",
+                "description": "店舗の名称"
+            },
+            "address": {
+                "name": "店舗住所",
+                "description": "店舗の所在地"
+            },
+            "can_qr_payment": {
+                "name": "QR決済可能フラグ",
+                "description": "店舗でQR決済が利用可能かどうかを示すフラグ（1:可能、0:不可能）"
+            },
+            "can_mobile_order": {
+                "name": "モバイルオーダー可能フラグ",
+                "description": "店舗でモバイルオーダーが利用可能かどうかを示すフラグ（1:可能、0:不可能）"
+            }
         }
     }
 }
