@@ -44,32 +44,22 @@ TechCorpは、顧客からの口コミやフィードバックを重要視して
 12. **データ間の整合性を保つ**
 13. **他のテーブルのIDを参照する場合、IDの組み合わせはランダムにする**
 14. **order_idは1~3000で**
-15. **対象期間は2021年～2023年**
-
+15. **store_idは1~100**
+16. **対象期間は2021年～2023年**
+    
 ### ダミーデータのデータモデル（DDL）
 
 ~~~
-CREATE TABLE point_cards (
-    card_id SERIAL PRIMARY KEY,
+CREATE TABLE qr_payments (
+    order_id SERIAL PRIMARY KEY,
     user_id INT REFERENCES users(user_id),
-    total_points INT DEFAULT 0,
-    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    payment_amount DECIMAL(10,2) NOT NULL,
+    payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    store_id INT REFERENCES stores(store_id)
 );
-
-CREATE TABLE point_history (
-    history_id SERIAL PRIMARY KEY,
-    card_id INT REFERENCES point_cards(card_id),
-    point_change INT NOT NULL,
-    change_type TEXT CHECK (change_type IN ('use', 'save')),
-    change_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    order_id INT
-    order_type TEXT CHECK (order_type IN ('ec_order', 'mobile_order', 'qr_order'))
-);
-
 
 ~~~
 
 
 ### ダミーデータのデータモデルごとの必要行数
-- point_cards : 300
-- point_history : 3000
+- qr_payments : 3000

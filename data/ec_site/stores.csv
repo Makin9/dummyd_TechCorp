@@ -1,4 +1,4 @@
-tustore_id,store_name,address,can_qr_payment,can_mobile_order
+store_id,store_name,address,can_qr_payment,can_mobile_order
 1,Home Essentials 東京,東京 1-丁目,True,True
 2,Beauty Boutique 東京,東京 2-丁目,True,True
 3,Fashion Hub 東京,東京 3-丁目,False,True
